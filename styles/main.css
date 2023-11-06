@@ -1,0 +1,42 @@
+body {
+    background-image:url("../imgs/bg.webp");
+    font-family: "DM Sans", "sans-serif";
+    font-family: "Fira Code", monospace;
+    
+}
+
+.img-responsive{
+   border: solid;
+   border-radius: 100%;
+   width: 12em;
+   height: 12em;
+   object-fit: cover;
+   object-position: top;
+   border-color: white;
+   box-shadow: .06em .06em .06em .06em gray;
+
+}
+
+.persons{
+    display: flex;
+}
+
+.person-card{
+    width: 19ww;
+    height: 25wh;
+    margin-right: 4em; 
+    padding: 3em;
+    background-size: 19ww 18wh;
+    background-position: bottom;
+
+    background-color: white;
+
+
+}
+
+.header{
+    border-bottom: 3px solid black;
+    text-align: left;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
