@@ -13,24 +13,23 @@ body {
    object-fit: cover;
    object-position: top;
    border-color: white;
-   box-shadow: .06em .06em .06em .06em gray;
-
+   box-shadow: 0em .06em 0em gray;
+   margin-top: -9em;
 }
 
-.persons{
-    display: flex;
-}
+
 
 .person-card{
     width: 19ww;
-    height: 25wh;
+  
     margin-right: 4em; 
+    margin-top: 11em;
     padding: 3em;
     background-size: 19ww 18wh;
     background-position: bottom;
-
+    display: inline-block;
     background-color: white;
-
+    
 
 }
 
