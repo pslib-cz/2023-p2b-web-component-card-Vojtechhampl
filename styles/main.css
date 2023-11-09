@@ -5,7 +5,7 @@ body {
     
 }
 
-.img-responsive{
+.img-header{
    border: solid;
    border-radius: 100%;
    width: 12em;
@@ -15,17 +15,21 @@ body {
    border-color: white;
    box-shadow: 0em .06em .9em gray;
    margin-top: -9em;
+   overflow: hidden;
+}
+.img-responsive{
+    width:100%;
+    display: block;
 }
 
 
-
 .person-card{
-    width: 19ww;
-  
+    max-width: 19ww;
+    display: flex;
     margin-right: 4em; 
     margin-top: 11em;
     padding: 3em;
-    background-size: 19ww 18wh;
+
     background-position: bottom;
     display: inline-block;
     background-color: white;
