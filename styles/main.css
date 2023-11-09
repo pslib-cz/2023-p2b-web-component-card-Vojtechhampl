@@ -13,7 +13,7 @@ body {
    object-fit: cover;
    object-position: top;
    border-color: white;
-   box-shadow: 0em .06em 0em gray;
+   box-shadow: 0em .06em .9em gray;
    margin-top: -9em;
 }
 
@@ -29,7 +29,7 @@ body {
     background-position: bottom;
     display: inline-block;
     background-color: white;
-    
+    box-shadow: 0em 1em 1em gray;
 
 }
 
