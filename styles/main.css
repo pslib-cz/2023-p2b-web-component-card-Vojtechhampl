@@ -39,3 +39,8 @@ body {
     font-weight: bolder;
     font-size: 1.5rem;
 }
+
+.ikona {
+    font-family: icomoon;
+    font-size: 1.5em;
+}
